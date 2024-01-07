@@ -42,7 +42,7 @@ Database model description and graph, generated with dbdiagram.io
         school_id integer
     }
 
-    Ref: School.id > Student.school_id // many-to-one
+    Ref: School.id < Student.school_id 
 
 
 
